@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# User-provided corpora and generated split files
+data/
+
+# Generated channel pools, cached LLM responses, metrics, and plots
+runs/
+results/
+figures/
+*.partial
+
+# Credentials
+.env
+*.key
+api_key
